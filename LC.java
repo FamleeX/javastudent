@@ -1,17 +1,17 @@
 /*
  * Created by Carter Lee
- * LC class - Prints 100 numbers, 10 per line
+ * LC - Prints 100 numbers, 10 per line
  * 
  */
 public class LC {
 	
-	//The main method of the program
+	//The main method that runs when class is called
 	public static void main(String[] args) {
 		
-		//method constant shorthand for " "
+		//method constant shorthand for " " (space)
 		final String SPACE = " "; 
 		
-		//This variable keeps track of the number
+		//The number variable keeps track of the number/number printed
 		int number; 
 		//This variable keeps track of numbers on a line
 		int lineTracker = 1;
@@ -31,6 +31,7 @@ public class LC {
 				System.out.println(); //line break
 				lineTracker = 1; //resets lineTracker
 			}
+
 			//Prints out current number with a space
 			System.out.print(number + SPACE);
 			//Increments or Increases lineTracker by one
@@ -39,9 +40,9 @@ public class LC {
 		}
 		
 		//when ran on certain systems it shows command prompt on same line
-		//adding line break for that situation
+		//after the program has completed. Adding line break for that situation
 		System.out.println();
 		
-	}
+	} //End of main method bracket
 	
-}
+} //End of Class bracket
