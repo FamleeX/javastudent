@@ -31,12 +31,11 @@ class RelativelyPrimeArray {
 		int columnNumber = 1;
 		for (int x = 0, y = 0; y <= n; x++) {
 			
-			//if (y >= 10) System.out.print(SPACE);
-			if (y == 0 && 0 == x) System.out.print(SPACE + SPACE);
+			if (y == 0 && 0 == x) printSpace(2);
 			else if (y == 0) {
 				System.out.print(columnNumber);
 				columnNumber++;
-			} else if (x == y) System.out.print(SPACE);
+			} else if (x == y) printSpace();
 			else if (rpa[x][y] == true) System.out.print("T");
 			else System.out.print("F");
 			
@@ -56,10 +55,28 @@ class RelativelyPrimeArray {
 			} else if (x > 9) {
 				System.out.print(SPACE);
 				continue;
-			}
+			} 
 			System.out.print(SPACE + SPACE);
 		} 
 		System.out.println("\n Program completed!");
+	}
+
+	public static void print(String string) {
+		System.out.print(string);
+	}
+
+	public static void print(int string) {
+		System.out.print(string);
+	}
+
+	public static void printSpace(int space) {
+		for (int i = 1; i <= space; i++) {
+			System.out.print(" ");
+		}
+	}
+
+	public static void printSpace() {
+		printSpace(1);
 	}
 	
 	public static boolean isRelativelyPrime (int number1, int number2) {
