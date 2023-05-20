@@ -4,29 +4,13 @@ import java.util.*;
 import java.lang.*;
 import java.io.*;
 
+
 // Please make sure not to delete the WorkAtTech class
 // You can create additional non-public classes as well
 // But the main method should be in the WorkAtTech class
-class Average {
+public class Average {
 	
 	public static void main (String[] args) {
-		
-		/*
-		int nameCount = Integer.parseInt(args[0]);
-		String[] inputs = new String[nameCount];
-		ArrayList<String> inputScanner = new ArrayList<String>();
-		String[] names = new String[nameCount];
-		int[] number1 = new int[nameCount];
-		int[] number2 = new int[nameCount];
-		int[] number3 = new int[nameCount];
-		int[] averages = new int[nameCount];
-		Scanner scanner = new Scanner(System.in);
-		
-		while (true) {
-			int i = 0;
-			inputScanner.add(scanner.nextLine());
-			i++;
-		} */
 		
 		String testString = "Carter 2 6 9";
 		String testName = "";
