@@ -4,6 +4,9 @@ Java Projects I am working on.
 This is for my (2nd) Java class. I almost lost all of my code so I am creating this repository
 
 Changelog
+5/19/23
+Modified RelativelyPrimeArray to fit assignment parameters, now all indexes of 0 are not touched (values should be null)
+
 5/14/23 v2
 Organized files by Assignment number
 
