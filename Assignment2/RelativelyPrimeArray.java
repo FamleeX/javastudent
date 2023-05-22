@@ -1,90 +1,84 @@
-import java.math.BigInteger;
+import static java.lang.System.out;
 
-
-// Please make sure not to delete the WorkAtTech class
-// You can create additional non-public classes as well
-// But the main method should be in the WorkAtTech class
 class RelativelyPrimeArray {
-	
-	public static void main (String[] args) {
-		
-		final String SPACE = " ";
-		
+
+    public static void main(String[] args) {
+
+        final String SPACE = " ";
 		int n = 20;
-		Boolean[][] rpa = new Boolean[n + 1][n + 1];
-		
-		//the x and y variables track that location in the array
-		for (int x = 1, y = 1; y <= n; x++) {
+        //int n = Integer.parseInt(args[0]);
+        Boolean[][] rpa = new Boolean[n + 1][n + 1];
+
+        for (int column = 1, row = 1; row <= n; column++) {
+
+            rpa[column][row] = isRelativelyPrime(column, row);
+
+            if (column == n) {
+                column = 0;
+                row++;
+            }
+        }
+
+        for (int column = 0, row = 0; row <= n; column++) {
 			
-			rpa[x][y] = isRelativelyPrime(x, y);
-			
-			//Trying one for loop with two variables. 
-			//If x is 9 at the end of loop, it should start
-			//loading data in next row
-			if (x == n) {
-				x = 0;
-				y++;
+			//These statements determine the character to print for the table of data
+            if (row == 0 && column == 0)
+                printSpace(2);
+            else if (row == 0) {
+                out.print(column);
+            } else if (column == row)
+                printSpace();
+            else if (rpa[column][row] == true)
+                out.print("T");
+            else
+                out.print("F");
+
+
+            if (column == n && n == row)
+                break;
+			else if (column == n) {
+				if (row < 9)
+					out.print("\n " + (row + 1));
+				else
+					out.print("\n" + (row + 1));
+				column = 0;
+				row++;
 			}
-		}
-		
-		int rowNumber = 1;
-		int columnNumber = 1;
-		for (int x = 0, y = 0; y <= n; x++) {
-			
-			if (y == 0 && 0 == x) printSpace(2);
-			else if (y == 0) {
-				System.out.print(columnNumber);
-				columnNumber++;
-			} else if (x == y) printSpace();
-			else if (rpa[x][y] == true) System.out.print("T");
-			else System.out.print("F");
-			
-			
-			if (x == n && n == y) break;
-			else if (x == n) {
-				String rowNumberString = Integer.toString(rowNumber);
-				if (rowNumber < 10) rowNumberString = SPACE + rowNumberString;
-				x = 0;
-				System.out.print("\n" + rowNumberString);
-				rowNumber++; y++;
-			}
-			
-			if (x > 9 && y > 0) {
-				System.out.print(SPACE + SPACE);
-				continue;
-			} else if (x > 9) {
-				System.out.print(SPACE);
-				continue;
-			} 
-			System.out.print(SPACE + SPACE);
-		} 
-		System.out.println("\n Program completed!");
-	}
 
-	public static void print(String string) {
-		System.out.print(string);
-	}
+            if (column > 9 && row > 0) {
+                out.print(SPACE + SPACE);
+                continue;
+            } else if (column > 9) {
+                out.print(SPACE);
+                continue;
+            }
+            out.print(SPACE + SPACE);
+        }
+        out.println("\nProgram completed!");
+    }
 
-	public static void print(int string) {
-		System.out.print(string);
-	}
+    public static void printSpace(int space) {
+        for (int i = 1; i <= space; i++) {
+            out.print(" ");
+        }
+    }
 
-	public static void printSpace(int space) {
-		for (int i = 1; i <= space; i++) {
-			System.out.print(" ");
-		}
-	}
+    public static void printSpace() {
+        printSpace(1);
+    }
 
-	public static void printSpace() {
-		printSpace(1);
-	}
-	
-	public static boolean isRelativelyPrime (int number1, int number2) {
-		
-		boolean result;
-		result = BigInteger.valueOf(number1).gcd(BigInteger.valueOf(number2)).equals(BigInteger.ONE);
-		return result;
-		
-	}
-	
+    public static boolean isRelativelyPrime(int number1, int number2) {
+        if (number1 == 0 || number2 == 0) {
+            return false; // Zero is not relatively prime to any number
+        }
+
+        int smallerNumber = Math.min(Math.abs(number1), Math.abs(number2));
+        for (int i = 2; i <= smallerNumber; i++) {
+            if (number1 % i == 0 && number2 % i == 0) {
+                return false; // Common divisor found, numbers are not relatively prime
+            }
+        }
+        return true; // No common divisor found, numbers are relatively prime
+    }
+
 }

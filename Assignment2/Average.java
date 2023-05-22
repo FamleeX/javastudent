@@ -1,10 +1,3 @@
-// Online Java Compiler
-// Use this online editor to compile and run Java code online
-import java.util.*;
-import java.lang.*;
-import java.io.*;
-
-
 // Please make sure not to delete the WorkAtTech class
 // You can create additional non-public classes as well
 // But the main method should be in the WorkAtTech class
