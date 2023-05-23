@@ -25,7 +25,7 @@ Assignment 2<ul>
 <li>Finalized and was submitted last sunday 5/14/23
 </ul>
 
-<h3>Assignment 2<h3>
+<h3>Assignment 2</h3>
 <ul>
 <li>Average is mostly done, needs some cleanup
 <li>Distribution is mostly done, needs a once over
