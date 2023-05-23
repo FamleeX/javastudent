@@ -6,8 +6,8 @@ This is for my (2nd) Java class. I almost lost all of my code so I am creating t
 <h2>Changelog</h2>
 
 <h3>5/23/23</h3>
-Assignment 2
-<ul>
+
+Assignment 2<ul>
 <li>Changed RelativelyPrimeArray to use printf(). WAAAY EASIER! LOL
 <li>Moved old PrimeArray to extras, printf looks way cleaner.
 <li>Distribution100 needs tinkering, decide on creating int array for numbers
@@ -15,16 +15,15 @@ Assignment 2
 </ul>
 <h3>5/22/23</h3>
 
-
-<ul>Main Changes
+Main Changes<ul>
 <li>Removed Class Files (just recompile)
 </ul>
 
-<ul>Assignment 1 (May have been pushed already)
+Assignment 1 (May have been pushed already)<ul>
 <li>Finalized and was submitted last sunday 5/14/23
 </ul>
 
-<ul>Assignment 2
+Assignment 2<ul>
 <li>Average is mostly done, needs some cleanup
 <li>Distribution is mostly done, needs a once over
 <li>RelativelyPrimeArray is complete but rewrite of code is needed to use printf()
