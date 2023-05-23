@@ -4,10 +4,13 @@ Java Projects I am working on.
 This is for my (2nd) Java class. I almost lost all of my code so I am creating this repository
 
 Changelog <br>
-5/22/23 <br>
+5/22/23 <br><br>
+
+Main Changes<br>
 Removed Class Files (just recompile)<br>
+
 Assignment 1 (May have been pushed already)<br>
--Finalized<br>
+-----Finalized and was submitted last sunday 5/14/23<br>
 
 Assignment 2 <br>
 -----Average is mostly done, needs some cleanup<br>
