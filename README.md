@@ -6,7 +6,7 @@ This is for my (2nd) Java class. I almost lost all of my code so I am creating t
 <h2>Changelog</h2>
 
 <h3>5/23/23</h3>
-<h4>Assignment 2</h4>
+Assignment
 <ul>
 <li>Changed RelativelyPrimeArray to use printf(). WAAAY EASIER! LOL
 <li>Moved old PrimeArray to extras, printf looks way cleaner.
