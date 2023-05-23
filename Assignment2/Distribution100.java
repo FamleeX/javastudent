@@ -20,7 +20,7 @@ public class Distribution100 {
 		
 		//This for loop adds parsed command line numbers to an array and counts
 		//how many numbers are less than or equal to 50; as well as greater than 50
-		for (int i = 1; i <= amount; i++) { 
+		for (int i = 1; i < args.length; i++) { 
 			
 			//The number variable parses an int value from the command line argument
 			int number = Integer.parseInt(args[i]);

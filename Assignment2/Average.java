@@ -1,22 +1,11 @@
-// Please make sure not to delete the WorkAtTech class
-// You can create additional non-public classes as well
-// But the main method should be in the WorkAtTech class
-
 import java.util.Scanner;
-
-import javax.lang.model.util.ElementScanner6;
 import static java.lang.System.out;
 public class Average {
 	
 	public static void main (String[] args) {
 		
-		/*String testString = "Carter 2 6 9";
-		String testName = "";
-		int[] numbers = new int[3];
-		int numberTracker = 0;*/
-
 		Scanner scanner = new Scanner(System.in);
-		int amount = 4;//Integer.parseInt(args[0]);
+		int amount = Integer.parseInt(args[0]);
 		String[] userData = new String[amount];
 
 		int w = 0;
@@ -71,14 +60,7 @@ public class Average {
 		
 	}
 	
-	public static double getAverage (int[] array) {
-		double sum = 0;
-		for (int i = 0; i < array.length; i++) sum += array[i];
-		double average = (sum / array.length);
-		average = Math.round(average * 100.0) / 100.0;
-		return average;
-	}
-	
+	//Helper method to get an average of three int arguments
 	public static double getAverage (int a, int b, int c) {
 		double sum = 0;
 		sum = a + b + c;

@@ -4,6 +4,14 @@ Java Projects I am working on.
 This is for my (2nd) Java class. I almost lost all of my code so I am creating this repository
 
 Changelog <br>
+
+5/23/23 <br>
+Assignment 2 <br>
+-----Changed RelativelyPrimeArray to use printf(). WAAAY EASIER! LOL<br>
+--------Moved old PrimeArray to extras, printf looks way cleaner.<br>
+-----Distribution100 needs tinkering, decide on creating int array for numbers<br>
+-----Average needs more comments, and a once-over<br><br>
+
 5/22/23 <br><br>
 
 Main Changes<br>
