@@ -39,6 +39,6 @@ Assignment 2<ul>
 <li>Finalized the programs for submission<ul>
 <li>RanNumGen
 <li>AndOp
-LC </ul></ul>
+<li>LC</ul></ul>
 Older<br><p>
 Prior to current change, converted RanNumGen to RanNumGenArray and made a version without Arrays to satisfy class assignment requirements</p>
