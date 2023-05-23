@@ -6,20 +6,20 @@ This is for my (2nd) Java class. I almost lost all of my code so I am creating t
 <h2>Changelog</h2>
 
 <h3>5/23/23</h3>
-Assignment
+Assignment 2
 <ul>
 <li>Changed RelativelyPrimeArray to use printf(). WAAAY EASIER! LOL
 <li>Moved old PrimeArray to extras, printf looks way cleaner.
 <li>Distribution100 needs tinkering, decide on creating int array for numbers
 <li>Average needs more comments, and a once-over
 </ul>
-5/22/23 <br><br>
+<h3>5/22/23</h3>
 
-Main Changes<br>
------Removed Class Files (just recompile)<br>
+Main Changes
+<li>Removed Class Files (just recompile)
 
-Assignment 1 (May have been pushed already)<br>
------Finalized and was submitted last sunday 5/14/23<br>
+Assignment 1 (May have been pushed already)
+<li>Finalized and was submitted last sunday 5/14/23
 
 Assignment 2 <br>
 -----Average is mostly done, needs some cleanup<br>
