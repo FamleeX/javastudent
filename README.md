@@ -3,7 +3,7 @@ Java Projects I am working on.
 
 This is for my (2nd) Java class. I almost lost all of my code so I am creating this repository
 
-Changelog <br>
+<h2>Changelog</h2><br>
 
 5/23/23 <br>
 Assignment 2 <br>
