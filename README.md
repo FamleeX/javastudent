@@ -6,11 +6,17 @@ This is for my (2nd) Java class. I almost lost all of my code so I am creating t
 Changelog
 5/22/23
 Removed Class Files (just recompile)
+
 Assignment 1 (May have been pushed already)
------Finalized
+
+Finalized
+
 Assignment 2 
+
 -----Average is mostly done, needs some cleanup
+
 -----Distribution is mostly done, needs a once over
+
 -----RelativelyPrimeArray is complete but rewrite of code is needed to use printf()
 
 5/19/23
