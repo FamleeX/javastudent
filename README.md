@@ -15,16 +15,16 @@ Assignment 2
 </ul>
 <h3>5/22/23</h3>
 
-Main Changes
-<ul>
+
+<ul>Main Changes
 <li>Removed Class Files (just recompile)
 </ul>
-Assignment 1 (May have been pushed already)
-<ul>
+
+<ul>Assignment 1 (May have been pushed already)
 <li>Finalized and was submitted last sunday 5/14/23
 </ul>
-Assignment 2
-<ul>
+
+<ul>Assignment 2
 <li>Average is mostly done, needs some cleanup
 <li>Distribution is mostly done, needs a once over
 <li>RelativelyPrimeArray is complete but rewrite of code is needed to use printf()
