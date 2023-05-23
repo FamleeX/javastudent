@@ -11,9 +11,7 @@ Assignment 1 (May have been pushed already)<br>
 
 Assignment 2 <br>
 -----Average is mostly done, needs some cleanup<br>
-
 -----Distribution is mostly done, needs a once over<br>
-
 -----RelativelyPrimeArray is complete but rewrite of code is needed to use printf()<br>
 
 5/19/23<br>
