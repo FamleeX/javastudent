@@ -7,7 +7,7 @@ Changelog <br>
 5/22/23 <br><br>
 
 Main Changes<br>
-Removed Class Files (just recompile)<br>
+-----Removed Class Files (just recompile)<br>
 
 Assignment 1 (May have been pushed already)<br>
 -----Finalized and was submitted last sunday 5/14/23<br>
