@@ -18,43 +18,48 @@ class RelativelyPrimeArray {
                 row++;
             }
         }
-
+        printSpace();
         for (int column = 0, row = 0; row <= n; column++) {
 			
-			//These statements determine the character to print for the table of data
-            if (row == 0 && column == 0)
-                printSpace(2);
-            else if (row == 0) {
-                out.print(column);
-            } else if (column == row)
+			//These if statements determine the character 
+            //to print for the table of data
+            if (column == row)
                 printSpace();
+            else if (row == 0)
+                out.print(column);
             else if (rpa[column][row] == true)
                 out.print("T");
             else
                 out.print("F");
 
-
-            if (column == n && n == row)
-                break;
-			else if (column == n) {
-				if (row < 9)
-					out.print("\n " + (row + 1));
-				else
-					out.print("\n" + (row + 1));
+            //These if statements check if the 
+            //last column of the row was printed 
+            if (column == n) {
+                //Starts a new line for the next row
+                out.println();
+                //If the last row was printed, exit the loop
+                if (row == n) break;
+                //Otherwise start the next row
+                else row++;
+                //If it is not the tenth row yet print a space
+                //to line up the numbers (looks like an invisible line)
+                if (row < 10) printSpace();
+                //Print the row number for the table
+                out.print(row);
+                //Reset the column to show no data
+                //was printed yet for this row
 				column = 0;
-				row++;
 			}
-
+            
             if (column > 9 && row > 0) {
-                out.print(SPACE + SPACE);
+                printSpace(2);
                 continue;
             } else if (column > 9) {
-                out.print(SPACE);
+                printSpace();
                 continue;
             }
-            out.print(SPACE + SPACE);
+            printSpace(2);
         }
-        out.println("\nProgram completed!");
     }
 
     public static void printSpace(int space) {
@@ -68,10 +73,6 @@ class RelativelyPrimeArray {
     }
 
     public static boolean isRelativelyPrime(int number1, int number2) {
-        if (number1 == 0 || number2 == 0) {
-            return false; // Zero is not relatively prime to any number
-        }
-
         int smallerNumber = Math.min(Math.abs(number1), Math.abs(number2));
         for (int i = 2; i <= smallerNumber; i++) {
             if (number1 % i == 0 && number2 % i == 0) {
