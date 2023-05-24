@@ -12,6 +12,9 @@ This is for my (2nd) Java class. I almost lost all of my code so I am creating t
     <li>Changed RelativelyPrimeArray to use printf(). WAAAY EASIER! LOL
     <li>Moved old PrimeArray to extras, printf looks way cleaner.
     <li>Distribution100 needs tinkering, decide on creating int array for numbers
+        <ul>
+        <li>Added checks for numbers being between 1-100 and if not enough args
+        </ul>
     <li>Average needs more comments, and a once-over
 </ul>
 
