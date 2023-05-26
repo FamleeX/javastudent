@@ -33,10 +33,10 @@ public class Distribution100 {
 			if (number < 1 || 100 < number) continue;
 			//This if statement checks if the "i" number is less than or equal to 50
 			//and then increases the lessThan variable
-			if (number <= 50 && number >= 1) lessThanEqualTo++;
+			if (number <= 50) lessThanEqualTo++;
 			//This (else)if statement checks if the "i" number is greater than 50
 			//and then increases the moreThan variable
-			else if (number > 50 && number <= 100) greaterThan++;
+			else if (number > 50) greaterThan++;
 			//If lessThan and greaterThan are equal to the amount,
 			//the loop will break as the conditions have been met
 			if (lessThanEqualTo + greaterThan == amount) break;
