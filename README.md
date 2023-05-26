@@ -5,9 +5,9 @@ This is for my (2nd) Java class. I almost lost all of my code so I am creating t
 
 <h1>Changelog</h1>
 
-<h2>5/24/23</h2>
+<h2>5/26/23</h2>
 
-Unsure of changes. These are the current versions.
+Current versions of all Programs. Added Assignment 3 and Assignment 4 folders, Assignment 3 should be done but review from the book.
 
 <h2>5/23/23</h2>
 
