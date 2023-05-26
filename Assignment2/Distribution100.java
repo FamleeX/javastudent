@@ -1,6 +1,6 @@
 import static java.lang.System.out;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 public class Distribution100 {
 	
 	//Main method of program/class

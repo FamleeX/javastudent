@@ -2,7 +2,7 @@ import static java.lang.System.out;
 
 public class Distribution100PF {
     public static void main(String[] args) {
-        String[] args2 = new String[] {"15", "5", "82", "2", "1", "74", "19", "47", "64", "39", "77", "25", "99", "100", "1", "10", "11"};
+        //String[] args2 = new String[] {"15", "5", "82", "2", "1", "74", "19", "47", "64", "39", "77", "25", "99", "100", "1", "10", "11"};
 
         int amount = Integer.parseInt(args[0]);
         int lessThanEqualTo = 0;

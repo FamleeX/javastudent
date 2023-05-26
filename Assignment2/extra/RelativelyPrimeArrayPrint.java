@@ -4,7 +4,7 @@ class RelativelyPrimeArrayPrint {
 
     public static void main(String[] args) {
 
-        final String SPACE = " ";
+        //final String SPACE = " ";
 		int n = 20;
         //int n = Integer.parseInt(args[0]);
         Boolean[][] rpa = new Boolean[n + 1][n + 1];
