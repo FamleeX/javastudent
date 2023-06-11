@@ -7,7 +7,9 @@ This is for my (2nd) Java class. I almost lost all of my code so I am creating t
 
 <h2>6/11/23</h2>
 
-Finalized Assignment 3 programs.
+Finalized Assignment 3 programs. 
+<br>
+Rev. 2 - Added Author Comment
 
 <h2>5/26/23</h2>
 

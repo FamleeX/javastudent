@@ -1,3 +1,8 @@
+/*
+ * Created by Carter Lee
+ * TriangularTest - tests if three given
+ * int arguments are sides of a triangle
+ */
 import static java.lang.System.out;
 public class TriangularTest {
 	

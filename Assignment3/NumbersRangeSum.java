@@ -1,3 +1,8 @@
+/*
+ * Created by Carter Lee
+ * NumbersRangeSum - Uses recursion to get the sum of
+ * a range of numbers specified by command line arguments
+ */
 import static java.lang.System.out;
 public class NumbersRangeSum {
 	
