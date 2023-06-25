@@ -4,7 +4,7 @@
  * ISBN number argument
  */
 import static java.lang.System.out;
-public class ISBN {
+public class ISBN_withIntMethod {
 	
 	//'immutable' String constant to display a message for not enough characters 
 	private static final String NOT_ENOUGH_CHARACTERS = "Please provide a 9 digit String representing an ISBN number";
@@ -63,6 +63,14 @@ public class ISBN {
 		//returns the calculated checksum
 		if (checksum < 10) return Integer.toString(checksum);
 		else return "X";
+		
+	}
+	
+	//This method is just like above, but can be used to pass a int value as a String 
+	//for the ISBN number to the above method. Unused in my tests
+	public static String calculateChecksum(int ISBN) {
+		
+		return calculateChecksum(Integer.toString(ISBN));
 		
 	}
 	
