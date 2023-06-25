@@ -7,12 +7,15 @@
 import static java.lang.System.out;
 public class Point {
 	
+	//error message class constant
 	private static final String NOT_ENOUGH_ARGS = "Please enter 6 command line arguments";
 
+	//variables for each instance
 	private double x = 0;
 	private double y = 0;
 	private double z = 0;
 	
+	//Constructor for the Point Class
 	public Point(double x, double y, double z) {
 		this.x = x;
 		this.y = y;
@@ -22,15 +25,19 @@ public class Point {
 	//This method calculates the Euclidean distance between the
 	//current instance Point and another specified Point as an argument
 	public double distanceTo(Point q) {
+		//these three variables store the squared value of the difference between the point coordinates
 		double x = (this.x-q.x) * (this.x-q.x);
 		double y = (this.y-q.y) * (this.y-q.y);
 		double z = (this.z-q.z) * (this.z-q.z);
 		
+		//distance will store the euclidean distance value.
 		double distance = Math.sqrt(x + y + z);
 		
+		//these next two lines will round the result of the euclidean distance to two decimal places
 		distance = Math.round(distance * 100);
 		distance /= 100;
 		
+		//return the final result
 		return distance;
 	}
 	
@@ -40,6 +47,7 @@ public class Point {
 		return string;
 	}
 	
+	//test the newly created Point datatype
 	public static void main(String[] args) {
 
 		//Checks for correct number of arguments

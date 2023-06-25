@@ -9,6 +9,7 @@ public class ISBN {
 	//'immutable' String constant to display a message for not enough characters 
 	private static final String NOT_ENOUGH_CHARACTERS = "Please provide a 9 digit String representing an ISBN number";
 	
+	//the main method to calculate checksum from a string ISBN number argument
 	public static void main(String[] args) {
 		
 		//command line argument for first 9 digits of ISBN number
