@@ -11,11 +11,14 @@ public class Point {
 	private static final String NOT_ENOUGH_ARGS = "Please enter 6 command line arguments";
 
 	//variables for each instance
+	//x stores the x coordinate value
 	private double x = 0;
+	//y stores the y coordinate value
 	private double y = 0;
+	//z stores the z coordinate value
 	private double z = 0;
 	
-	//Constructor for the Point Class
+	//Constructor for the Point Class. Sets the coordinate values
 	public Point(double x, double y, double z) {
 		this.x = x;
 		this.y = y;
