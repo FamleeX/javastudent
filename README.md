@@ -5,8 +5,13 @@ This is for my (2nd) Java class. I almost lost all of my code so I am creating t
 
 <h1>Changelog</h1>
 
-<h2>6/11/23</h2>
+<h2>6/24/23</h2>
+Finalized Assignment 4 programs
+<br>ISBN
+<br>Point
 
+
+<h2>6/11/23</h2>
 Finalized Assignment 3 programs. 
 <br>
 Rev. 2 - Added Author Comment
