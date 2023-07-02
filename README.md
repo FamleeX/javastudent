@@ -7,7 +7,7 @@ The textbook used in my Java class is "Introduction to Programming in Java 2nd E
 
 <h1>Changelog</h1>
 
-<h2>7/1/23</h2>
+<h2>7/2/23</h2>
 Assignment 5 Programs need finishing touches
 <ul>
     <li>Modified program 4.2.3 BinarySearch in the texbook
