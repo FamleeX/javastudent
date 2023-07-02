@@ -3,7 +3,21 @@ Java Projects I am working on.
 
 This is for my (2nd) Java class. I almost lost all of my code so I am creating this repository
 
+The textbook used in my Java class is "Introduction to Programming in Java 2nd Edition" by Robert Sedgwick and Kevin Wayne (published in 2017)
+
 <h1>Changelog</h1>
+
+<h2>7/1/23</h2>
+Assignment 5 Programs need finishing touches
+<ul>
+    <li>Modified program 4.2.3 BinarySearch in the texbook
+        <ul>
+            <li>support int arrays instead of String arrays
+            <li>if the search key is in the array, it returns the largest index i for which a[i] is equal to key
+            <li>returns –i where i is the largest index such that a[i] is less than key
+        </ul>
+    <li>Modified program 4.2.6 MergeSort in the textbook to support searching subarrays
+</ul>
 
 <h2>6/24/23</h2>
 Finalized Assignment 4 programs
