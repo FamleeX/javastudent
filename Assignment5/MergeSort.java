@@ -4,10 +4,16 @@
  * to allow searching of subarrays
  */
 import static java.lang.System.out;
+import static java.lang.System.err;
 
 public class MergeSort {
     
     public static void main(String[] args) {
+         // if not enough arguments show a message on how to use program
+        if (args.length < 4) {
+            err.println("Usage: java MergeSort <start_index> <end_index> <word1> <word2> ...");
+            System.exit(1);
+        }
 
         // Extract the index values for the sort
         int start = Integer.parseInt(args[0]);
@@ -34,7 +40,7 @@ public class MergeSort {
         out.println();
     }
 
-    // method allows searching a subarray
+    // method allows sorting a subarray
     @SuppressWarnings("rawtypes")
     public static void sort(Comparable[] a, int lo, int hi) {
         Comparable[] aux = new Comparable[a.length];

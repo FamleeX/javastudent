@@ -45,7 +45,7 @@ public class BinarySearch {
             int result = search(searchKey, numbers);
             out.println(result);
         } catch (FileNotFoundException e) {
-            // Tell user of incorrect file
+            // Tell user the file cannot be found
             err.println("Input file not found: " + inputFile);
         }
 
