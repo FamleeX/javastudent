@@ -3,9 +3,11 @@ Java Projects I am working on.
 
 This is for my (2nd) Java class. I almost lost all of my code so I am creating this repository
 
+I use Visual Studio Code to program in Java.
+
 The textbook used in my Java class is "Introduction to Programming in Java 2nd Edition" by Robert Sedgwick and Kevin Wayne (published in 2017)
 
-Also used in some programs is introcs and StdLib from Princeton 
+Also used in some programs is <a href='https://introcs.cs.princeton.edu/java/code/'>introcs</a> and <a href='https://introcs.cs.princeton.edu/java/stdlib/'>StdLib</a> from Princeton 
 
 <h1>Changelog</h1>
 
