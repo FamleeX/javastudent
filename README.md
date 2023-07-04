@@ -5,7 +5,16 @@ This is for my (2nd) Java class. I almost lost all of my code so I am creating t
 
 The textbook used in my Java class is "Introduction to Programming in Java 2nd Edition" by Robert Sedgwick and Kevin Wayne (published in 2017)
 
+Also used in some programs is introcs and StdLib from Princeton 
+
 <h1>Changelog</h1>
+
+<h2>7/4/23</h2>
+Assignment 6 programs written and completed (in less than an hour!)
+<ul>
+    <li>LineNum uses the Queue class (program 4.3.6 in the textbook) that takes an integer command line argument "n" and prints the nth string from the first string in standard input.
+    <li>LinkedStackOfStrings is the program 4.3.2 from the textbook modified with a find method that checks for a command line argument string and looks for it in the LinkedStackOfStrings object. Prints a certain message depending on if the string was found.
+</ul>
 
 <h2>7/2/23</h2>
 Assignment 5 Programs need finishing touches

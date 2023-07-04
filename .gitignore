@@ -15,3 +15,7 @@ Assignment5/BinarySearch.class
 Assignment5/MergeSort.class
 Assignment6/LineNum.class
 Assignment6/LinkedStackOfStrings.class
+Assignment6/Queue.class
+.gitignore
+Assignment6/Queue$Node.class
+Assignment6/LinkedStackOfStrings$Node.class
