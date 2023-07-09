@@ -1,3 +1,8 @@
+/*
+ * Written/Modified by Carter Lee
+ * LineNum - Queue client that prints the nth String from the
+ * first string found on standard input. Queue program 4.3.6.
+ */
 import java.util.Scanner;
 import static java.lang.System.out;
 

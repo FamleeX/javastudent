@@ -1,3 +1,8 @@
+/*
+ * Written/Modified by Carter Lee
+ * LinkedStackOfStrings - Modify program 4.3.2 in the textbook
+ * by adding a find method that takes a string argument
+ */
 import java.util.Scanner;
 import static java.lang.System.out;
 
@@ -28,11 +33,15 @@ public class LinkedStackOfStrings {
         return item;
     }
 
+    // This method looks for a string in the LinkedStack
     public boolean find(String string) {
-        String stack = "";
-        while(!this.isEmpty()) {
-            stack = this.pop();
-            if (stack.contains(string))
+        String stringFromStack = "";
+        // This creates a copy of the stack to use the 
+        // pop method to search and not modify the instance stack itself.
+        LinkedStackOfStrings stack = this;
+        while(!stack.isEmpty()) {
+            stringFromStack = stack.pop();
+            if (stringFromStack.contains(string))
                 return true;
         }
         return false;
@@ -47,8 +56,6 @@ public class LinkedStackOfStrings {
         Scanner scanner = new Scanner(System.in);
         // create LinkedStack object
         LinkedStackOfStrings stack = new LinkedStackOfStrings();
-        // this string will store the desired line from standard input
-        //String string = "";
         // this final string will contain the standard message for the result
         String message = " in the linked stack";
         // this string is used for the format for printf

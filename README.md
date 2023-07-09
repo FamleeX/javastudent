@@ -11,6 +11,9 @@ Also used in some programs is <a href='https://introcs.cs.princeton.edu/java/cod
 
 <h1>Changelog</h1>
 
+<h2>7/9/23</h2>
+Finalized Assignment 6 and added author comments to both programs
+
 <h2>7/4/23</h2>
 Assignment 6 programs written and completed (in less than an hour!)
 <ul>
